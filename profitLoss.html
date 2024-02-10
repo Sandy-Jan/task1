@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit and Loss</title>
+</head>
+<body>
+    <script>
+        var cp = prompt("enter the cost prise of the item");
+        var sp = prompt("enter the selling prise of the item");
+
+        var cp = Number(cp);
+        var sp = Number(sp);
+        if(sp > cp){
+            document.write(`<h1>You have profit in the transaction.</h1>`)
+        } else {
+            document.write(`<h1>You have loss in the transaction.</h1>`)
+        }
+        if(sp > cp){
+            document.write(`<h1>The profit will be : ${sp - cp}</h1>`)
+        } else {
+            document.write(`<h1>The loss will be : ${cp - sp}</h1>`)
+        }
+    </script>
+</body>
+</html>
